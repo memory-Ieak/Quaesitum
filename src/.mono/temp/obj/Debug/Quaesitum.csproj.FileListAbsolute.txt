@@ -1,0 +1,5 @@
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\bin\Debug\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\bin\Debug\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Debug\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Debug\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Debug\Quaesitum.pdb

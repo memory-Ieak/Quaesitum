@@ -1,0 +1,40 @@
+C:\Users\dimi3\Documents\Quaesitum\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\dimi3\Documents\Quaesitum\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Documents\Quaesitum\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Documents\Quaesitum\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\dimi3\Documents\Quaesitum\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v1.0\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v1.0\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v1.0\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v1.0\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v1.0\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v1.2\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v1.2\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Desktop\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Users\dimi3\Documents\Quaesitum v1.2\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\dimi3\Documents\Quaesitum v1.2\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Documents\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Documents\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\dimi3\Documents\Quaesitum v1.2\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Matteo\projet\Quaesitum v1.4\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Matteo\projet\Quaesitum v1.4\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Matteo\projet\Quaesitum v1.4\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Matteo\projet\Quaesitum v1.4\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Matteo\projet\Quaesitum v1.4\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v1.4.5\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v1.4.5\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v1.4.5\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Desktop\Quaesitum v1.4.5\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v1.4.5\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\dimi3\Desktop\Quaesitum v2.0\.mono\temp\obj\Tools\Quaesitum.pdb
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v2.1\.mono\temp\bin\Tools\Quaesitum.dll
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v2.1\.mono\temp\bin\Tools\Quaesitum.pdb
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v2.1\.mono\temp\obj\Tools\Quaesitum.csprojAssemblyReference.cache
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v2.1\.mono\temp\obj\Tools\Quaesitum.dll
+C:\Users\$EJU000-087G3R7UU0P9\Documents\Quaesitum v2.1\.mono\temp\obj\Tools\Quaesitum.pdb

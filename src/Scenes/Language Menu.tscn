@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Language_Menu.cs" type="Script" id=1]
+
+[node name="Language Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 170
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_right = 1280.0
+margin_bottom = 14.0
+custom_colors/font_color_shadow = Color( 0.243137, 0.243137, 0.243137, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 5
+text = "Langues"
+align = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+margin_top = 184.0
+margin_right = 1280.0
+margin_bottom = 464.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/CenterContainer"]
+margin_left = 460.0
+margin_right = 820.0
+margin_bottom = 280.0
+custom_constants/separation = 50
+
+[node name="French" type="Button" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_right = 360.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 360, 60 )
+text = "Français"
+
+[node name="English" type="Button" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 110.0
+margin_right = 360.0
+margin_bottom = 170.0
+rect_min_size = Vector2( 360, 60 )
+text = "Anglais"
+
+[node name="Back" type="Button" parent="VBoxContainer/CenterContainer/VBoxContainer"]
+margin_top = 220.0
+margin_right = 360.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 360, 60 )
+text = "Retour"
+[connection signal="pressed" from="VBoxContainer/CenterContainer/VBoxContainer/French" to="." method="_on_French_pressed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/VBoxContainer/English" to="." method="_on_English_pressed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/VBoxContainer/Back" to="." method="_on_Back_pressed"]

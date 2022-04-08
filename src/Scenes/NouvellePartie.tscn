@@ -1,0 +1,172 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Texture/Bouton/Taille100B.png" type="Texture" id=1]
+[ext_resource path="res://Texture/Bouton/droiteA.png" type="Texture" id=2]
+[ext_resource path="res://Texture/Font/Montserrat-ExtraBold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Texture/Bouton/droiteB.png" type="Texture" id=4]
+[ext_resource path="res://Texture/Bouton/Taille50B.png" type="Texture" id=5]
+[ext_resource path="res://Texture/Bouton/Taille50A.png" type="Texture" id=6]
+[ext_resource path="res://Texture/Bouton/Taille100A.png" type="Texture" id=7]
+[ext_resource path="res://Texture/Bouton/gaucheA.png" type="Texture" id=8]
+[ext_resource path="res://Texture/Bouton/Taille25B.png" type="Texture" id=9]
+[ext_resource path="res://Texture/Bouton/gaucheB.png" type="Texture" id=10]
+[ext_resource path="res://Scripts/NouvellePartie.cs" type="Script" id=11]
+[ext_resource path="res://Texture/Bouton/Taille25A.png" type="Texture" id=12]
+[ext_resource path="res://Texture/Interface/Playmenu.jpg" type="Texture" id=13]
+
+[sub_resource type="DynamicFont" id=1]
+size = 42
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 24
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 24
+font_data = ExtResource( 3 )
+
+[node name="NouvellePartie" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.3916
+margin_right = -2.3916
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 13 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Titre" type="Label" parent="."]
+margin_left = 815.444
+margin_top = 299.132
+margin_right = 1159.44
+margin_bottom = 351.132
+custom_fonts/font = SubResource( 1 )
+text = "Nouvelle Partie"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TitreNombreJoueur" type="Label" parent="."]
+margin_left = 791.637
+margin_top = 456.155
+margin_right = 1010.64
+margin_bottom = 487.155
+custom_fonts/font = SubResource( 2 )
+text = "Nombre Joueurs:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NombreJoueur" type="Label" parent="TitreNombreJoueur"]
+margin_left = 318.062
+margin_top = 0.89241
+margin_right = 328.062
+margin_bottom = 40.8924
+custom_fonts/font = SubResource( 3 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BoutonDroite" type="TextureButton" parent="TitreNombreJoueur/NombreJoueur"]
+margin_left = 44.574
+margin_top = -4.173
+margin_right = 144.574
+margin_bottom = 95.827
+rect_scale = Vector2( 0.4, 0.4 )
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 4 )
+
+[node name="BoutonGauche" type="TextureButton" parent="TitreNombreJoueur/NombreJoueur"]
+margin_left = -72.951
+margin_top = -4.173
+margin_right = 27.049
+margin_bottom = 95.827
+rect_scale = Vector2( 0.4, 0.4 )
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TitreTaille" type="Label" parent="."]
+margin_left = 819.38
+margin_top = 538.139
+margin_right = 895.38
+margin_bottom = 569.139
+custom_fonts/font = SubResource( 4 )
+text = "Taille:"
+
+[node name="25x25" type="TextureButton" parent="TitreTaille"]
+margin_left = 94.7771
+margin_top = -0.159058
+margin_right = 594.777
+margin_bottom = 199.841
+rect_scale = Vector2( 0.15, 0.15 )
+texture_normal = ExtResource( 9 )
+texture_hover = ExtResource( 12 )
+texture_focused = ExtResource( 12 )
+
+[node name="50x50" type="TextureButton" parent="TitreTaille"]
+margin_left = 192.27
+margin_top = -0.159
+margin_right = 692.27
+margin_bottom = 199.841
+rect_scale = Vector2( 0.15, 0.15 )
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+texture_focused = ExtResource( 6 )
+
+[node name="100x100" type="TextureButton" parent="TitreTaille"]
+margin_left = 288.272
+margin_top = -0.159
+margin_right = 788.272
+margin_bottom = 199.841
+rect_scale = Vector2( 0.15, 0.15 )
+texture_normal = ExtResource( 1 )
+texture_hover = ExtResource( 7 )
+texture_focused = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Retour" type="Button" parent="."]
+margin_left = 40.6583
+margin_top = 16.7416
+margin_right = 123.658
+margin_bottom = 93.7416
+text = "BACK"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Jouer" type="Button" parent="."]
+margin_left = 895.462
+margin_top = 636.902
+margin_right = 1052.46
+margin_bottom = 689.902
+text = "JOUER"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="TitreNombreJoueur/NombreJoueur/BoutonDroite" to="." method="_on_BoutonDroite_pressed"]
+[connection signal="pressed" from="TitreNombreJoueur/NombreJoueur/BoutonGauche" to="." method="_on_BoutonGauche_pressed"]
+[connection signal="pressed" from="TitreTaille/25x25" to="." method="_on_25x25_pressed"]
+[connection signal="pressed" from="TitreTaille/50x50" to="." method="_on_50x50_pressed"]
+[connection signal="pressed" from="TitreTaille/100x100" to="." method="_on_100x100_pressed"]
+[connection signal="pressed" from="Retour" to="." method="_on_Retour_pressed"]
+[connection signal="pressed" from="Jouer" to="." method="_on_Jouer_pressed"]

@@ -1,0 +1,521 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Texture/Bouton/AptitudeBoutonBlanc.png" type="Texture" id=1]
+[ext_resource path="res://Texture/Bouton/ScierieBoutonNoir.png" type="Texture" id=2]
+[ext_resource path="res://Texture/Bouton/MineBoutonNoir.png" type="Texture" id=3]
+[ext_resource path="res://Texture/Bouton/MineBoutonBlanc.png" type="Texture" id=4]
+[ext_resource path="res://Texture/Bouton/SoldatAptitudeBoutonBlanc.png" type="Texture" id=5]
+[ext_resource path="res://Texture/Bouton/FermeBoutonBlanc.png" type="Texture" id=6]
+[ext_resource path="res://Texture/Bouton/FermeBoutonNoir.png" type="Texture" id=7]
+[ext_resource path="res://Texture/Bouton/ScierieBoutonBlanc.png" type="Texture" id=8]
+[ext_resource path="res://Aptitude.cs" type="Script" id=9]
+[ext_resource path="res://Texture/Bouton/Back.png" type="Texture" id=10]
+[ext_resource path="res://Texture/Bouton/CapitaleNoir.png" type="Texture" id=11]
+[ext_resource path="res://Texture/Bouton/CapitaleBlanc.png" type="Texture" id=12]
+[ext_resource path="res://Texture/Ressource/CoinRessourceTexture.png" type="Texture" id=13]
+[ext_resource path="res://Texture/Ressource/FerRessourceTexture.png" type="Texture" id=14]
+[ext_resource path="res://Texture/Ressource/FoodRessourceTexture.png" type="Texture" id=15]
+[ext_resource path="res://Texture/Ressource/BoisRessourceTexture.png" type="Texture" id=16]
+
+[node name="Aptitude" type="Node2D"]
+script = ExtResource( 9 )
+
+[node name="LineCapitale" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 874.74, 522.737, 885.846, 752.804 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineCapitale2" type="Line2D" parent="."]
+position = Vector2( 105.972, -39.3643 )
+points = PoolVector2Array( 1014.37, 905.125, 892, 748.8 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineCapitale3" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 1014.37, 905.125, 1211.11, 938.445 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineFerme" type="Line2D" parent="."]
+position = Vector2( 115.931, -39.1864 )
+points = PoolVector2Array( 719.606, 390.316, 877.876, 500.352 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineFerme2" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 551, 345, 587, 354, 722, 388 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineFerme3" type="Line2D" parent="."]
+position = Vector2( -75.5196, 32.3252 )
+points = PoolVector2Array( 526.184, 362.042, 605.086, 318.51, 711.195, 265.455 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineScierie" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 862.84, 507.88, 732.244, 645.278 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineScierie2" type="Line2D" parent="."]
+position = Vector2( -59.1956, 85.3798 )
+points = PoolVector2Array( 892.124, 522.566, 732.244, 645.278 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineScierie3" type="Line2D" parent="."]
+position = Vector2( -59.1956, 85.3798 )
+points = PoolVector2Array( 512.581, 545.693, 732.244, 645.278 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineMine" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 883.849, 510.405, 1018.26, 646.766 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineMine2" type="Line2D" parent="."]
+position = Vector2( 168.139, 331.085 )
+scale = Vector2( 1.13215, 0.58239 )
+points = PoolVector2Array( 880.379, 519.77, 957.28, 594.517, 1036.58, 671.6 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineMine3" type="Line2D" parent="."]
+position = Vector2( 168.139, 331.085 )
+scale = Vector2( 1.13215, 0.58239 )
+points = PoolVector2Array( 1138.72, 473.053, 1089.45, 566.487, 1036.58, 671.6 )
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="LineSoldat" type="Line2D" parent="."]
+position = Vector2( 113.572, -38.4142 )
+points = PoolVector2Array( 879.953, 500.665, 1028, 379.888 )
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="Perso" type="TextureButton" parent="."]
+margin_left = 939.266
+margin_top = 413.486
+margin_right = 1039.27
+margin_bottom = 513.486
+texture_normal = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ferme" type="TextureButton" parent="."]
+margin_left = 785.599
+margin_top = 292.789
+margin_right = 885.599
+margin_bottom = 392.789
+texture_normal = ExtResource( 7 )
+texture_disabled = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Ferme"]
+margin_left = 29.9467
+margin_top = 106.053
+margin_right = 91.9467
+margin_bottom = 126.053
+text = "40 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ferme2" type="TextureButton" parent="."]
+margin_left = 584.239
+margin_top = 246.149
+margin_right = 684.239
+margin_bottom = 346.149
+texture_normal = ExtResource( 7 )
+texture_disabled = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Ferme2"]
+margin_left = 32.9075
+margin_top = 108.073
+margin_right = 110.907
+margin_bottom = 135.073
+text = "80 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ferme3" type="TextureButton" parent="."]
+margin_left = 406.03
+margin_top = 334.573
+margin_right = 506.03
+margin_bottom = 434.573
+texture_normal = ExtResource( 7 )
+texture_disabled = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Ferme3"]
+margin_left = 26.371
+margin_top = 108.258
+margin_right = 95.371
+margin_bottom = 134.258
+text = "120 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scierie" type="TextureButton" parent="."]
+margin_left = 787.196
+margin_top = 557.567
+margin_right = 887.196
+margin_bottom = 657.567
+texture_normal = ExtResource( 2 )
+texture_disabled = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Scierie"]
+margin_left = 39.4295
+margin_top = 104.0
+margin_right = 82.4295
+margin_bottom = 125.0
+text = "30 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scierie2" type="TextureButton" parent="."]
+margin_left = 620.133
+margin_top = 678.758
+margin_right = 720.133
+margin_bottom = 778.758
+texture_normal = ExtResource( 2 )
+texture_disabled = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Scierie2"]
+margin_left = 33.8606
+margin_top = 106.708
+margin_right = 100.861
+margin_bottom = 131.708
+text = "90 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scierie3" type="TextureButton" parent="."]
+margin_left = 402.474
+margin_top = 576.73
+margin_right = 502.474
+margin_bottom = 676.73
+texture_normal = ExtResource( 2 )
+texture_disabled = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Scierie3"]
+margin_left = 29.5721
+margin_top = 105.708
+margin_right = 91.5721
+margin_bottom = 125.708
+text = "180 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mine" type="TextureButton" parent="."]
+margin_left = 1113.95
+margin_top = 587.513
+margin_right = 1213.95
+margin_bottom = 687.513
+texture_normal = ExtResource( 3 )
+texture_disabled = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Mine"]
+margin_left = 29.8643
+margin_top = 105.892
+margin_right = 90.8643
+margin_bottom = 127.892
+text = "50 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mine2" type="TextureButton" parent="."]
+margin_left = 1283.48
+margin_top = 658.552
+margin_right = 1383.48
+margin_bottom = 758.552
+texture_normal = ExtResource( 3 )
+texture_disabled = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Mine2"]
+margin_left = 24.858
+margin_top = 107.484
+margin_right = 93.858
+margin_bottom = 127.484
+text = "150 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mine3" type="TextureButton" parent="."]
+margin_left = 1405.48
+margin_top = 551.341
+margin_right = 1505.48
+margin_bottom = 651.341
+texture_normal = ExtResource( 3 )
+texture_disabled = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Mine3"]
+margin_left = 33.308
+margin_top = 110.382
+margin_right = 95.308
+margin_bottom = 135.382
+text = "225 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Soldat" type="TextureButton" parent="."]
+margin_left = 1089.69
+margin_top = 294.331
+margin_right = 1189.69
+margin_bottom = 394.331
+texture_normal = ExtResource( 5 )
+texture_disabled = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="TextureButton" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 0.1, 0.1 )
+texture_normal = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Capitale" type="TextureButton" parent="."]
+margin_left = 946.576
+margin_top = 661.309
+margin_right = 1046.58
+margin_bottom = 761.309
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Capitale"]
+margin_left = 34.2
+margin_top = 105.9
+margin_right = 105.2
+margin_bottom = 137.9
+text = "50 
+100 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Capitale2" type="TextureButton" parent="."]
+margin_left = 1070.34
+margin_top = 815.216
+margin_right = 1170.34
+margin_bottom = 915.216
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Capitale2"]
+margin_left = 27.0
+margin_top = 104.0
+margin_right = 90.0
+margin_bottom = 144.0
+text = "150 
+400 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Capitale3" type="TextureButton" parent="."]
+margin_left = 1271.84
+margin_top = 842.19
+margin_right = 1371.84
+margin_bottom = 942.19
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Capitale3"]
+margin_left = 30.8367
+margin_top = 101.54
+margin_right = 95.8367
+margin_bottom = 134.54
+text = "300 
+800 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Or" type="Sprite" parent="."]
+position = Vector2( 955.74, 115.627 )
+scale = Vector2( 0.0244101, 0.0189416 )
+texture = ExtResource( 13 )
+
+[node name="Or2" type="Sprite" parent="."]
+position = Vector2( 852.739, 668.319 )
+scale = Vector2( 0.0109955, 0.00820045 )
+texture = ExtResource( 13 )
+
+[node name="Or3" type="Sprite" parent="."]
+position = Vector2( 465.245, 689.325 )
+scale = Vector2( 0.0109955, 0.00820045 )
+texture = ExtResource( 13 )
+
+[node name="Or4" type="Sprite" parent="."]
+position = Vector2( 680.295, 792.233 )
+scale = Vector2( 0.0109955, 0.00820045 )
+texture = ExtResource( 13 )
+
+[node name="Fer" type="Sprite" parent="."]
+position = Vector2( 1142.93, 115.92 )
+scale = Vector2( 0.710153, 0.630088 )
+texture = ExtResource( 14 )
+
+[node name="Fer2" type="Sprite" parent="."]
+position = Vector2( 1009.68, 772.533 )
+scale = Vector2( 0.321537, 0.241472 )
+texture = ExtResource( 14 )
+
+[node name="Fer4" type="Sprite" parent="."]
+position = Vector2( 1340.88, 951.214 )
+scale = Vector2( 0.321537, 0.241472 )
+texture = ExtResource( 14 )
+
+[node name="Fer3" type="Sprite" parent="."]
+position = Vector2( 1134.13, 926.161 )
+scale = Vector2( 0.321537, 0.241472 )
+texture = ExtResource( 14 )
+
+[node name="Bois" type="Sprite" parent="."]
+position = Vector2( 956.459, 166.485 )
+scale = Vector2( 0.0738266, 0.0723682 )
+texture = ExtResource( 16 )
+
+[node name="Bois2" type="Sprite" parent="."]
+position = Vector2( 472.091, 449.953 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Bois3" type="Sprite" parent="."]
+position = Vector2( 846.831, 406.832 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Bois5" type="Sprite" parent="."]
+position = Vector2( 1477.81, 666.993 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Bois6" type="Sprite" parent="."]
+position = Vector2( 1347.71, 773.007 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Bois7" type="Sprite" parent="."]
+position = Vector2( 1176.48, 700.164 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Bois8" type="Sprite" parent="."]
+position = Vector2( 1018.48, 789.652 )
+scale = Vector2( 0.0329363, 0.0286464 )
+texture = ExtResource( 16 )
+
+[node name="Bois9" type="Sprite" parent="."]
+position = Vector2( 1135.74, 941.556 )
+scale = Vector2( 0.0329363, 0.0286464 )
+texture = ExtResource( 16 )
+
+[node name="Bois10" type="Sprite" parent="."]
+position = Vector2( 1342.57, 965.599 )
+scale = Vector2( 0.0306311, 0.0258084 )
+texture = ExtResource( 16 )
+
+[node name="Bois4" type="Sprite" parent="."]
+position = Vector2( 647.654, 360.632 )
+scale = Vector2( 0.0345867, 0.0337264 )
+texture = ExtResource( 16 )
+
+[node name="Nourriture" type="Sprite" parent="."]
+position = Vector2( 1145.05, 166.088 )
+scale = Vector2( 0.0749574, 0.0648973 )
+texture = ExtResource( 15 )
+
+[node name="FerText" type="Label" parent="."]
+margin_left = 1173.74
+margin_top = 107.449
+margin_right = 1240.74
+margin_bottom = 125.449
+text = "X 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BoisText" type="Label" parent="."]
+margin_left = 989.738
+margin_top = 161.599
+margin_right = 1029.74
+margin_bottom = 175.599
+text = "X 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NourritureText" type="Label" parent="."]
+margin_left = 1173.24
+margin_top = 160.399
+margin_right = 1220.24
+margin_bottom = 176.399
+text = "X 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OrText" type="Label" parent="."]
+margin_left = 984.261
+margin_top = 109.051
+margin_right = 1032.26
+margin_bottom = 123.051
+text = "X 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Ferme" to="." method="_on_Ferme_pressed"]
+[connection signal="pressed" from="Ferme2" to="." method="_on_Ferme2_pressed"]
+[connection signal="pressed" from="Ferme3" to="." method="_on_Ferme3_pressed"]
+[connection signal="pressed" from="Scierie" to="." method="_on_Scierie_pressed"]
+[connection signal="pressed" from="Scierie2" to="." method="_on_Scierie2_pressed"]
+[connection signal="pressed" from="Scierie3" to="." method="_on_Scierie3_pressed"]
+[connection signal="pressed" from="Mine" to="." method="_on_Mine_pressed"]
+[connection signal="pressed" from="Mine2" to="." method="_on_Mine2_pressed"]
+[connection signal="pressed" from="Mine3" to="." method="_on_Mine3_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+[connection signal="pressed" from="Capitale" to="." method="_on_Capitale_pressed"]
+[connection signal="pressed" from="Capitale2" to="." method="_on_Capitale2_pressed"]
+[connection signal="pressed" from="Capitale3" to="." method="_on_Capitale3_pressed"]
